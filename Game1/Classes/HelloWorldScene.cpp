@@ -12,7 +12,7 @@ Scene* HelloWorld::createScene()
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-    auto layer = HelloWorld::create();11
+    auto layer = HelloWorld::create();
 
     // add layer as a child to scene
     scene->addChild(layer);
