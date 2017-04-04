@@ -9,7 +9,7 @@ using namespace cocostudio::timeline;
 Scene* HelloWorld::createScene()
 {
     // 'scene' is an autorelease object
-    auto scene = Scene::create();
+    auto scene = Scene::create()11;
     
     // 'layer' is an autorelease object
     auto layer = HelloWorld::create();
