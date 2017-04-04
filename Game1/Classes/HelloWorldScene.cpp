@@ -87,6 +87,7 @@ bool HelloWorld::init()
     auto rootNode = CSLoader::createNode("MainScene.csb");
 
     addChild(rootNode);
+	rootNode->setPosition(100, 200);
 
     return true;
 }
